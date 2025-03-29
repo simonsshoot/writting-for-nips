@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 400">
+  <!-- 背景 -->
+  <rect width="1000" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="50" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#333">文本嵌入和检测流程图</text>
+  
+  <!-- 左侧文本输入部分 -->
+  <text x="60" y="100" font-family="Arial" font-size="18" fill="#333">text</text>
+  
+  <!-- 圆形输入节点 -->
+  <image x="40" y="120" width="40" height="40" xlink:href="pics\frame.png"/>
+  <circle cx="60" cy="200" r="20" fill="#7fa2ff" stroke="#6666e0" stroke-width="2"/>
+  <circle cx="60" cy="260" r="20" fill="#7fff7f" stroke="#66e066" stroke-width="2"/>
+  <circle cx="60" cy="320" r="20" fill="#ffdf7f" stroke="#e0b466" stroke-width="2"/>
+  
+  <!-- 连接线到Encoder -->
+  <line x1="80" y1="140" x2="150" y2="140" stroke="#e06666" stroke-width="3"/>
+  <line x1="80" y1="200" x2="150" y2="200" stroke="#6666e0" stroke-width="3"/>
+  <line x1="80" y1="260" x2="150" y2="260" stroke="#66e066" stroke-width="3"/>
+  <line x1="80" y1="320" x2="150" y2="320" stroke="#e0b466" stroke-width="3"/>
+  
+  <!-- Encoder模块 -->
+  <rect x="150" y="120" width="120" height="220" fill="#d9e8ff" stroke="#6666e0" stroke-width="2" rx="10" ry="10"/>
+  <text x="210" y="230" font-family="Arial" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">Encoder</text>
+  
+  <!-- 文本嵌入模块标题 -->
+  <text x="360" y="100" font-family="Arial" font-size="18" fill="#333">text-embedding</text>
+  
+  <!-- 嵌入向量 -->
+  <rect x="320" y="120" width="140" height="40" fill="#fff" stroke="#888" stroke-width="2" rx="5" ry="5"/>
+  <text x="390" y="145" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">0 0 0 0</text>
+  
+  <rect x="320" y="180" width="140" height="40" fill="#fff" stroke="#888" stroke-width="2" rx="5" ry="5"/>
+  <text x="390" y="205" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">0 0 0 0</text>
+  
+  <rect x="320" y="240" width="140" height="40" fill="#fff" stroke="#888" stroke-width="2" rx="5" ry="5"/>
+  <text x="390" y="265" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">0 0 0 0</text>
+  
+  <rect x="320" y="300" width="140" height="40" fill="#fff" stroke="#888" stroke-width="2" rx="5" ry="5"/>
+  <text x="390" y="325" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">0 0 0 0</text>
+  
+  <!-- 连接线到嵌入 -->
+  <line x1="270" y1="140" x2="320" y2="140" stroke="#6666e0" stroke-width="3"/>
+  <line x1="270" y1="200" x2="320" y2="200" stroke="#6666e0" stroke-width="3"/>
+  <line x1="270" y1="260" x2="320" y2="260" stroke="#6666e0" stroke-width="3"/>
+  <line x1="270" y1="320" x2="320" y2="320" stroke="#6666e0" stroke-width="3"/>
+  
+  <!-- 连接线到Detector -->
+  <line x1="460" y1="140" x2="520" y2="140" stroke="#6666e0" stroke-width="3"/>
+  <line x1="460" y1="200" x2="520" y2="200" stroke="#6666e0" stroke-width="3"/>
+  <line x1="460" y1="260" x2="520" y2="260" stroke="#6666e0" stroke-width="3"/>
+  <line x1="460" y1="320" x2="520" y2="320" stroke="#6666e0" stroke-width="3"/>
+  
+  <!-- Detector模块 -->
+  <path d="M520,120 L600,120 L620,230 L600,340 L520,340 Z" fill="#ffe6e6" stroke="#e06666" stroke-width="2"/>
+  <text x="560" y="230" font-family="Arial" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">Detector</text>
+  
+  <!-- Machine部分 -->
+  <rect x="720" y="120" width="200" height="140" fill="#e6ffe6" stroke="#66e066" stroke-width="2" rx="10" ry="10"/>
+  <text x="820" y="100" font-family="Arial" font-size="18" fill="#333">machine</text>
+  
+  <!-- 机器分类框 -->
+  <rect x="740" y="140" width="60" height="30" fill="#fff" stroke="#888" stroke-width="2"/>
+  <text x="770" y="160" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">char</text>
+  
+  <rect x="840" y="140" width="60" height="30" fill="#fff" stroke="#888" stroke-width="2"/>
+  <text x="870" y="160" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">word</text>
+  
+  <rect x="740" y="200" width="60" height="30" fill="#fff" stroke="#888" stroke-width="2"/>
+  <text x="770" y="220" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">para</text>
+  
+  <rect x="840" y="200" width="60" height="30" fill="#fff" stroke="#888" stroke-width="2"/>
+  <text x="870" y="220" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">sent</text>
+  
+  <!-- 连接箭头 -->
+  <line x1="770" y1="170" x2="770" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="870" y1="170" x2="870" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="155" x2="840" y2="155" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="215" x2="840" y2="215" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Human部分 -->
+  <rect x="720" y="300" width="200" height="40" fill="#ffe6cc" stroke="#e0b466" stroke-width="2" rx="10" ry="10"/>
+  <text x="820" y="325" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">human</text>
+  <text x="930" y="325" font-family="Arial" font-size="18" fill="#333">human</text>
+  
+  <!-- 连接线到Human -->
+  <line x1="620" y1="320" x2="720" y2="320" stroke="#e0b466" stroke-width="3"/>
+  
+  <!-- 连接线到Machine -->
+  <line x1="620" y1="230" x2="720" y2="230" stroke="#66e066" stroke-width="3"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 从Machine到Human的线 -->
+  <line x1="820" y1="260" x2="820" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>

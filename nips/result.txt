@@ -1,0 +1,116 @@
+
+radar跑checkgptgpt_origin的结果：
+{
+    "f1": 0.6204417051874679,
+    "acc": 0.6305,
+    "gpt_acc": 0.581048581048581,
+    "human_acc": 0.6840187402394586,
+    "avg_f1": 0.629853290348147,
+    "true_positive": 0.302,
+    "false_positive": 0.15175,
+    "true_negative": 0.3285,
+    "false_negative": 0.21775
+}
+*************************
+
+跑十二种攻击的：
+[Model] /home/yx/content_moderation_code/ai-text-detector-evaluation-main/output/checkgpt/models/RADAR
+[Data] /home/yx/content_moderation_code/ai-text-detector-evaluation-main/nipswork/origindata/simpleai_checkgptattack.jsonl
+{
+    "f1": 0.7534652417733573,
+    "acc": 0.6194209645146801,
+    "gpt_acc": 0.6089187224763778,
+    "human_acc": 0.8427272727272728,
+    "avg_f1": 0.7270738501527121,
+    "true_positive": 0.581567234268447,
+    "false_positive": 0.007064396259545102,
+    "true_negative": 0.037853730246233,
+    "false_negative": 0.3735146392257748
+}
+*************************
+
+pecola本身跑checkgpt_origin：
+2025-03-15 11:51:17.090 | INFO     | __main__:eval_test:67 - test acc: 0.3782
+2025-03-15 11:51:17.090 | INFO     | __main__:eval_test:68 - test_f1:0.3778
+2025-03-15 11:51:17.090 | INFO     | __main__:eval_test:69 - test_recall:0.3777
+2025-03-15 11:51:17.090 | INFO     | __main__:eval_test:70 - human_recall:0.3644,machine_recall:0.3911
+
+用新训练之后的跑：
+2025-03-15 11:53:01.348 | INFO     | __main__:eval_test:67 - test acc: 0.8458
+2025-03-15 11:53:01.348 | INFO     | __main__:eval_test:68 - test_f1:0.8451
+2025-03-15 11:53:01.348 | INFO     | __main__:eval_test:69 - test_recall:0.8496
+2025-03-15 11:53:01.348 | INFO     | __main__:eval_test:70 - human_recall:0.9469,machine_recall:0.7523
+
+2025-03-16 02:54:08.198 | INFO     | __main__:eval_test:67 - test acc: 0.8612
+2025-03-16 02:54:08.198 | INFO     | __main__:eval_test:68 - test_f1:0.8611
+2025-03-16 02:54:08.199 | INFO     | __main__:eval_test:69 - test_recall:0.8640
+2025-03-16 02:54:08.199 | INFO     | __main__:eval_test:70 - human_recall:0.9339,machine_recall:0.7941
+跑checkgpt_attack：
+2025-03-16 03:26:16.010 | INFO     | __main__:eval_test:67 - test acc: 0.8048
+2025-03-16 03:26:16.010 | INFO     | __main__:eval_test:68 - test_f1:0.5951
+2025-03-16 03:26:16.010 | INFO     | __main__:eval_test:69 - test_recall:0.8731
+2025-03-16 03:26:16.011 | INFO     | __main__:eval_test:70 - human_recall:0.9482,machine_recall:0.7980
+
+2025-03-16 03:03:59.897 | INFO     | __main__:eval_test:67 - test acc: 0.8399
+2025-03-16 03:03:59.898 | INFO     | __main__:eval_test:68 - test_f1:0.6264
+2025-03-16 03:03:59.898 | INFO     | __main__:eval_test:69 - test_recall:0.8850
+2025-03-16 03:03:59.898 | INFO     | __main__:eval_test:70 - human_recall:0.9345,machine_recall:0.8355
+
+
+
+coco本身的跑origin：
+03/15/2025 12:10:30 - INFO - __main__ -   ***** Eval results  *****
+03/15/2025 12:10:30 - INFO - __main__ -     acc = 0.22913860748375006
+03/15/2025 12:10:30 - INFO - __main__ -     acc_and_f1 = 0.28237994268403716
+03/15/2025 12:10:30 - INFO - __main__ -     f1 = 0.3356212778843242
+03/15/2025 12:10:30 - INFO - __main__ -     recall_gpt = 0.6533333333333333
+03/15/2025 12:10:30 - INFO - __main__ -     recall_human = 0.20553872782345306
+03/15/2025 12:10:30 - INFO - __main__ -     recall_overall = 0.20553872782345306
+
+
+
+
+
+pecola练了一版simpleai的：
+2025-03-15 14:26:08.147 | INFO     | __main__:eval:167 - test acc: 0.8612
+2025-03-15 14:26:08.147 | INFO     | __main__:eval:168 - test_f1:0.8611
+2025-03-15 14:24:53.816 | INFO     | __main__:main:142 - time for one epoch: 0:01:47.499508
+2025-03-15 14:24:53.840 | INFO     | __main__:eval:148 - args:
+Namespace(batch_size=8, dataset='checkgpt', device='0', epochs=30, eval_metric='acc', log_file='./saved_model/train.log', log_step=10, loss_type='ce', lr=1e-05, max_grad_norm=1.0, model='/data/Content Moderation/model/roberta-base', output_dir='saved_model/', output_name='simpleai_checkgptori.pt', pretrained_model=None, save_every_epoch=False, save_steps=-1, scl_reg=0.9, seed=41, shift_reg=0, weight_decay=0.01)
+2025-03-15 14:24:53.911 | INFO     | __main__:eval:155 - /data/Content Moderation/model/roberta-base tokenizer loaded
+2025-03-15 14:24:54.006 | INFO     | lib.data_loader:get_raw_data:161 - test set of checkgpt loaded, size = 4000
+2025-03-15 14:24:54.006 | INFO     | lib.data_loader:get_raw_data:162 - ./data/second_work/train.jsonl train path 
+2025-03-15 14:25:22.324 | INFO     | __main__:eval:164 - best model loaded
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 125/125 [00:45<00:00,  2.73it/s]
+2025-03-15 14:26:08.147 | INFO     | __main__:eval:167 - test acc: 0.8612
+2025-03-15 14:26:08.147 | INFO     | __main__:eval:168 - test_f1:0.8611
+
+新的simpleai预测checkgpt_origin（即test）：
+2025-03-16 02:56:46.132 | INFO     | __main__:eval_test:67 - test acc: 0.8880
+2025-03-16 02:56:46.132 | INFO     | __main__:eval_test:68 - test_f1:0.8879
+2025-03-16 02:56:46.132 | INFO     | __main__:eval_test:69 - test_recall:0.8885
+2025-03-16 02:56:46.132 | INFO     | __main__:eval_test:70 - human_recall:0.9021,machine_recall:0.8749
+
+simpleai预测checkgpt_attack：
+2025-03-16 03:12:44.015 | INFO     | __main__:eval_test:67 - test acc: 0.9050
+2025-03-16 03:12:44.015 | INFO     | __main__:eval_test:68 - test_f1:0.7019
+2025-03-16 03:12:44.016 | INFO     | __main__:eval_test:69 - test_recall:0.8957
+2025-03-16 03:12:44.016 | INFO     | __main__:eval_test:70 - human_recall:0.8855,machine_recall:0.9059
+
+
+
+
+
+
+
+
+
+
+coco：
+03/15/2025 11:24:06 - INFO - __main__ -   ***** Eval results  *****
+03/15/2025 11:24:06 - INFO - __main__ -     acc = 0.84296585767174
+03/15/2025 11:24:06 - INFO - __main__ -     acc_and_f1 = 0.8334714014583484
+03/15/2025 11:24:06 - INFO - __main__ -     f1 = 0.8239769452449567
+03/15/2025 11:24:06 - INFO - __main__ -     recall_gpt = 0.953785846915618
+03/15/2025 11:24:06 - INFO - __main__ -     recall_human = 0.7328275579249539
+03/15/2025 11:24:06 - INFO - __main__ -     recall_overall = 0.7328275579249539

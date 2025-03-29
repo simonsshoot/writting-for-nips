@@ -1,0 +1,175 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{Claude2024,deepseekai2025,geminiteam2024geminifamilyhighlycapable}
+\citation{Perkins2023}
+\citation{hazell2023spear,Weidinger2022taxonomy}
+\citation{mitchell2023detectgpt,tian2023gptzero}
+\citation{gu2022watermarking,kirchenbauer2023watermark}
+\citation{guo2023simpleai,wang2023seqxgpt}
+\citation{zhou2024navigatingshadows,huang2024ai}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{zhou2024navigatingshadows}
+\citation{dugan2024raid,krishna2024paraphrasing}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of framework. (a) Machine text disguise. Machine-generated texts may be disguised by attackers to evade detection. We put the original machine texts into the factory for processing and get the disguised machine texts. (b) First-stage detect. The texts are filtered through the first-stage detector, and most of the original machine texts will be filtered out. (c) Second-stage detect. The filtered texts moves to the second-stage detector to get fine-grained recognition.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:method}{{1}{2}{Overview of framework. (a) Machine text disguise. Machine-generated texts may be disguised by attackers to evade detection. We put the original machine texts into the factory for processing and get the disguised machine texts. (b) First-stage detect. The texts are filtered through the first-stage detector, and most of the original machine texts will be filtered out. (c) Second-stage detect. The filtered texts moves to the second-stage detector to get fine-grained recognition}{figure.1}{}}
+\citation{mitchell2023detectgpt}
+\citation{su2023detectllm}
+\citation{tian2023gptzero,gehrmann2019gltrstatisticaldetectionvisualization}
+\citation{gu2022watermarking,liu2024unforgeablepubliclyverifiablewatermark,hou2024clusteringbasedsemanticwatermark,lu2024entropybasedwatermarking}
+\citation{kirchenbauer2023watermark}
+\citation{Chen_2023,miao2024efficientdetection,mireshghallah2024smallerlanguagemodelsbetter,wang2023seqxgpt,liu2024checkgpt}
+\citation{liu2019roberta}
+\citation{solaiman2019releasestrategiessocialimpacts}
+\citation{hu2023radarrobustaitextdetection}
+\citation{soto2024fewshotdetectionmachinegeneratedtext}
+\citation{huang2024ai}
+\citation{krishna2024paraphrasing}
+\citation{zhu2023beatllm}
+\citation{zhou2024navigatingshadows,dugan2024raid,krishna2024paraphrasing,liu2024pecola,huang2024ai,wang2024stumblingblocks}
+\citation{liu2024pecola}
+\citation{dugan2024raid}
+\citation{zhou2024navigatingshadows}
+\citation{cheng2023ml}
+\citation{Zhang2022mixcse}
+\citation{gao2021simcse}
+\citation{zhang2022vascl}
+\citation{liu2023coco}
+\citation{soto2024fewshot,guo2024detective}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Works}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Machine-generated text detectors.}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Disguise methods of machine-generated texts}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Contrastive Learing in Detectors}{3}{subsection.2.3}\protected@file@percent }
+\citation{zhou2024navigatingshadows,huang2024ai}
+\citation{zhou2024navigatingshadows}
+\citation{cai2023evadechatgpt}
+\citation{devlin2019bert}
+\citation{lewis2020bart}
+\citation{krishna2024paraphrasing}
+\citation{tiedemann2020opus}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Model and Methodology}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Framework Overview}{4}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:framework}{{3.1}{4}{Framework Overview}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}First Stage Detector}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:first_stage}{{3.2}{4}{First Stage Detector}{subsection.3.2}{}}
+\citation{chen2020simclr}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Overview of the second stage detector. After the text is encoded by the encoder, it's deeper features are learned through hierarchical contrastive learning strategy, which pulls in the same positive samples and pushes away the negative samples to distinguish human texts and machine texts that have undergone four levels of disguise.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:second-detector}{{2}{5}{Overview of the second stage detector. After the text is encoded by the encoder, it's deeper features are learned through hierarchical contrastive learning strategy, which pulls in the same positive samples and pushes away the negative samples to distinguish human texts and machine texts that have undergone four levels of disguise}{figure.2}{}}
+\newlabel{eq:loss_ce}{{1}{5}{First Stage Detector}{equation.3.1}{}}
+\newlabel{ineq:seq_equal}{{2}{5}{First Stage Detector}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Second Stage Detector}{5}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:second_stage}{{3.3}{5}{Second Stage Detector}{subsection.3.3}{}}
+\newlabel{ineq:sim_equal}{{3}{5}{Second Stage Detector}{equation.3.3}{}}
+\newlabel{eq:loss_function}{{4}{5}{Second Stage Detector}{equation.3.4}{}}
+\citation{Dickson2022crossentry,ma2022crossentry,wood2022biasvariance}
+\citation{liu2016largemarginsoftmax,Sun2020circleloss}
+\citation{liu2016largemarginsoftmax,sohn2016contrasive}
+\citation{liu2024checkgpt}
+\citation{guo2023simpleai}
+\citation{wang2023seqxgpt}
+\newlabel{eq:final_contrastive_loss}{{5}{6}{Second Stage Detector}{equation.3.5}{}}
+\newlabel{eq:loss_overall}{{6}{6}{Second Stage Detector}{equation.3.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets}{6}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:dataset}{{4.1}{6}{Datasets}{subsection.4.1}{}}
+\citation{guo2023simpleai}
+\citation{kirchenbauer2023watermark}
+\citation{liu2023coco}
+\citation{hu2023radarrobustaitextdetection}
+\citation{liu2024pecola}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation metrics}{7}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:metrics}{{4.2}{7}{Evaluation metrics}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Baseline Detectors}{7}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:baseline}{{4.3}{7}{Baseline Detectors}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and Analysis}{7}{section.5}\protected@file@percent }
+\citation{Chen2022contastive}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Performance results of different models across datasets without disguise.The best number is highlighted in \textbf  {bold}, while the second best one is \underline  {underlined}, other tables are the same.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:combined_results}{{1}{8}{Performance results of different models across datasets without disguise.The best number is highlighted in \textbf {bold}, while the second best one is \underline {underlined}, other tables are the same}{table.1}{}}
+\newlabel{ineq:newfirst_function}{{7}{8}{Results and Analysis}{equation.5.7}{}}
+\newlabel{eq:newfirst_final}{{8}{8}{Results and Analysis}{equation.5.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance results of different models across datasets under disguise.}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:combined_results_attacked}{{2}{9}{Performance results of different models across datasets under disguise}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Performance results of "patching" results.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:patch_results}{{3}{9}{Performance results of "patching" results}{table.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Ablation Studies}{10}{section.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Results of ablation. Original means datasets are unprocessed, while Attacked means datasets are disguised. First represents first-stage detector, Second represents second-stage detector, Combined represents the two-stage detector.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:ablation_results}{{4}{10}{Results of ablation. Original means datasets are unprocessed, while Attacked means datasets are disguised. First represents first-stage detector, Second represents second-stage detector, Combined represents the two-stage detector}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Results of ablation, examining the effect of different parts in detail.}}{11}{table.5}\protected@file@percent }
+\newlabel{tab:directly_trained_results}{{5}{11}{Results of ablation, examining the effect of different parts in detail}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Results of ablation, examining the effect of different parts in detail.}}{11}{figure.3}\protected@file@percent }
+\newlabel{fig:ablation_fig2}{{3}{11}{Results of ablation, examining the effect of different parts in detail}{figure.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{11}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Acknowledgements}{11}{section.8}\protected@file@percent }
+\bibdata{custom}
+\bibcite{cai2023evadechatgpt}{{1}{2023}{{Cai and Cui}}{{}}}
+\bibcite{Chen2022contastive}{{2}{2022}{{Chen et~al.}}{{Chen, Zhang, Mao, and Xu}}}
+\bibcite{chen2020simclr}{{3}{2020}{{Chen et~al.}}{{Chen, Kornblith, Norouzi, and Hinton}}}
+\bibcite{Chen_2023}{{4}{2023}{{Chen et~al.}}{{Chen, Kang, Zhai, Li, Singh, and Raj}}}
+\bibcite{cheng2023ml}{{5}{2023}{{Cheng et~al.}}{{Cheng, Cao, Ye, Zhu, Li, and Zou}}}
+\bibcite{Claude2024}{{6}{2024}{{Claude AI}}{{}}}
+\bibcite{deepseekai2025}{{7}{2025}{{DeepSeek-AI}}{{}}}
+\bibcite{devlin2019bert}{{8}{2019}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
+\bibcite{Dickson2022crossentry}{{9}{2022}{{Dickson et~al.}}{{Dickson, Bosman, and Malan}}}
+\bibcite{dugan2024raid}{{10}{2024}{{Dugan et~al.}}{{Dugan, Hwang, Trhl{\'i}k, Zhu, Ludan, Xu, Ippolito, and Callison-Burch}}}
+\bibcite{gao2021simcse}{{11}{2021}{{Gao et~al.}}{{Gao, Yao, and Chen}}}
+\bibcite{gehrmann2019gltrstatisticaldetectionvisualization}{{12}{2019}{{Gehrmann et~al.}}{{Gehrmann, Strobelt, and Rush}}}
+\bibcite{geminiteam2024geminifamilyhighlycapable}{{13}{2024}{{Gemini}}{{}}}
+\bibcite{gu2022watermarking}{{14}{2022}{{Gu et~al.}}{{Gu, Huang, Zheng, Chang, and Hsieh}}}
+\bibcite{guo2023simpleai}{{15}{2023}{{Guo et~al.}}{{Guo, Zhang, Wang, Jiang, Nie, Ding, Yue, and Wu}}}
+\bibcite{guo2024detective}{{16}{2024}{{Guo et~al.}}{{Guo, Zhang, He, Zhang, Feng, Huang, and Ma}}}
+\bibcite{hazell2023spear}{{17}{2023}{{Hazell}}{{}}}
+\bibcite{hou2024clusteringbasedsemanticwatermark}{{18}{2024}{{Hou et~al.}}{{Hou, Zhang, Wang, Khashabi, and He}}}
+\bibcite{hu2023radarrobustaitextdetection}{{19}{2023}{{Hu et~al.}}{{Hu, Chen, and Ho}}}
+\bibcite{huang2024ai}{{20}{2024}{{Huang et~al.}}{{Huang, Zhang, Li, You, Wang, and Yang}}}
+\bibcite{kirchenbauer2023watermark}{{21}{2023}{{Kirchenbauer et~al.}}{{Kirchenbauer, Geiping, Wen, Katz, Miers, and Goldstein}}}
+\bibcite{krishna2024paraphrasing}{{22}{2024}{{Krishna et~al.}}{{Krishna, Song, Karpinska, Wieting, and Iyyer}}}
+\bibcite{lewis2020bart}{{23}{2020}{{Lewis et~al.}}{{Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer}}}
+\bibcite{liu2024unforgeablepubliclyverifiablewatermark}{{24}{2024{a}}{{Liu et~al.}}{{Liu, Pan, Hu, Li, Wen, King, and Yu}}}
+\bibcite{liu2024pecola}{{25}{2024{b}}{{Liu et~al.}}{{Liu, Liu, Wang, Cheng, Li, Zhang, Lan, and Shen}}}
+\bibcite{liu2016largemarginsoftmax}{{26}{2016}{{Liu et~al.}}{{Liu, Wen, Yu, and Yang}}}
+\bibcite{liu2023coco}{{27}{2023}{{Liu et~al.}}{{Liu, Zhang, Wang, Pu, Lan, and Shen}}}
+\bibcite{liu2019roberta}{{28}{2019}{{Liu et~al.}}{{Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov}}}
+\bibcite{liu2024checkgpt}{{29}{2024{c}}{{Liu et~al.}}{{Liu, Yao, Li, and Luo}}}
+\bibcite{lu2024entropybasedwatermarking}{{30}{2024}{{Lu et~al.}}{{Lu, Liu, Yu, Li, and King}}}
+\bibcite{ma2022crossentry}{{31}{2022}{{Ma et~al.}}{{Ma, Kunin, Wu, and Ying}}}
+\bibcite{miao2024efficientdetection}{{32}{2024}{{Miao et~al.}}{{Miao, Gao, Zhang, and Deng}}}
+\bibcite{mireshghallah2024smallerlanguagemodelsbetter}{{33}{2024}{{Mireshghallah et~al.}}{{Mireshghallah, Mattern, Gao, Shokri, and Berg-Kirkpatrick}}}
+\bibcite{mitchell2023detectgpt}{{34}{2023}{{Mitchell et~al.}}{{Mitchell, Lee, Khazatsky, Manning, and Finn}}}
+\bibcite{Perkins2023}{{35}{2023}{{Perkins}}{{}}}
+\bibcite{sohn2016contrasive}{{36}{2016}{{Sohn}}{{}}}
+\bibcite{solaiman2019releasestrategiessocialimpacts}{{37}{2019}{{Solaiman et~al.}}{{Solaiman, Brundage, Clark, Askell, Herbert-Voss, Wu, Radford, Krueger, Kim, Kreps, McCain, Newhouse, Blazakis, McGuffie, and Wang}}}
+\bibcite{soto2024fewshot}{{38}{2024{a}}{{Soto et~al.}}{{Soto, Koch, Khan, Chen, Bishop, and Andrews}}}
+\bibcite{soto2024fewshotdetectionmachinegeneratedtext}{{39}{2024{b}}{{Soto et~al.}}{{Soto, Koch, Khan, Chen, Bishop, and Andrews}}}
+\bibcite{su2023detectllm}{{40}{2023}{{Su et~al.}}{{Su, Zhuo, Wang, and Nakov}}}
+\bibcite{Sun2020circleloss}{{41}{2020}{{Sun et~al.}}{{Sun, Cheng, Zhang, Zhang, Zheng, Wang, and Wei}}}
+\bibcite{tian2023gptzero}{{42}{2023}{{Tian and Cui}}{{}}}
+\bibcite{tiedemann2020opus}{{43}{2020}{{Tiedemann and Thottingal}}{{}}}
+\bibcite{wang2023seqxgpt}{{44}{2023}{{Wang et~al.}}{{Wang, Li, Ren, Jiang, Zhang, and Qiu}}}
+\bibcite{wang2024stumblingblocks}{{45}{2024}{{Wang et~al.}}{{Wang, Feng, Hou, Pu, Shen, Liu, Tsvetkov, and He}}}
+\bibcite{Weidinger2022taxonomy}{{46}{2022}{{Weidinger et~al.}}{{Weidinger, Uesato, Rauh, Griffin, Huang, Mellor, Glaese, Cheng, Balle, Kasirzadeh, Biles, Brown, Kenton, Hawkins, Stepleton, Birhane, Hendricks, Rimell, Isaac, Haas, Legassick, Irving, and Gabriel}}}
+\bibcite{wood2022biasvariance}{{47}{2022}{{Wood et~al.}}{{Wood, Mu, and Brown}}}
+\bibcite{zhang2022vascl}{{48}{2022{a}}{{Zhang et~al.}}{{Zhang, Xiao, Zhu, Ma, and Arnold}}}
+\bibcite{Zhang2022mixcse}{{49}{2022{b}}{{Zhang et~al.}}{{Zhang, Zhang, Mensah, Liu, and Mao}}}
+\bibcite{zhou2024navigatingshadows}{{50}{2024}{{Zhou et~al.}}{{Zhou, He, and Sun}}}
+\bibcite{zhu2023beatllm}{{51}{2023}{{Zhu et~al.}}{{Zhu, Yuan, Cui, Chen, Fu, He, Deng, Liu, Sun, and Gu}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Broader Impacts}{17}{appendix.A}\protected@file@percent }
+\newlabel{sec:Impacts}{{A}{17}{Broader Impacts}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Limitations and Future Work}{17}{appendix.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Detailed Construction of Dataset}{17}{appendix.C}\protected@file@percent }
+\newlabel{subsec:dataset_appendix}{{C}{17}{Detailed Construction of Dataset}{appendix.C}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Detailed composition of the dataset for detecting human texts and original machine texts.}}{17}{table.6}\protected@file@percent }
+\newlabel{tab:detailed_original_datasets}{{6}{17}{Detailed composition of the dataset for detecting human texts and original machine texts}{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Detailed composition of the dataset for watermarks.}}{17}{table.7}\protected@file@percent }
+\newlabel{tab:watermark_original_datasets}{{7}{17}{Detailed composition of the dataset for watermarks}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Detailed composition of the dataset for detecting human texts and attacked machine texts.}}{17}{table.8}\protected@file@percent }
+\newlabel{tab:detailed_attack_datasets}{{8}{17}{Detailed composition of the dataset for detecting human texts and attacked machine texts}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Detailed composition of the attacked dataset for watermarks.}}{17}{table.9}\protected@file@percent }
+\newlabel{tab:watermark_attack_datasets}{{9}{17}{Detailed composition of the attacked dataset for watermarks}{table.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Comparison of contrastive learning and cross entropy on training accuracy and loss.}}{18}{figure.4}\protected@file@percent }
+\newlabel{fig:loss_compare}{{4}{18}{Comparison of contrastive learning and cross entropy on training accuracy and loss}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Comparison of Cross Entropy Loss and Contrastive Learning Loss}{18}{appendix.D}\protected@file@percent }
+\newlabel{subsec:loss_appendix}{{D}{18}{Comparison of Cross Entropy Loss and Contrastive Learning Loss}{appendix.D}{}}
+\gdef \@abspage@last{18}

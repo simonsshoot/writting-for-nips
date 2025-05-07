@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: neurips_2025.aux
+The style file: plainnat.bst
+Database file #1: custom.bib
+Warning--entry type for "tian2023gptzero" isn't style-file defined
+--line 89 of file custom.bib
+Warning--entry type for "Claude2024" isn't style-file defined
+--line 160 of file custom.bib
+Warning--I'm ignoring Claude2024's extra "author" field
+--line 164 of file custom.bib
+Warning--I'm ignoring Perkins2023's extra "author" field
+--line 187 of file custom.bib
+Warning--empty booktitle in Weidinger2022taxonomy
+You've used 60 entries,
+            2773 wiz_defined-function locations,
+            995 strings with 22972 characters,
+and the built_in function-call counts, 41839 in all, are:
+= -- 3676
+> -- 3327
+< -- 41
++ -- 1103
+- -- 1039
+* -- 3735
+:= -- 6400
+add.period$ -- 271
+call.type$ -- 60
+change.case$ -- 495
+chr.to.int$ -- 56
+cite$ -- 121
+duplicate$ -- 1584
+empty$ -- 2649
+format.name$ -- 1105
+if$ -- 8871
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 43
+newline$ -- 373
+num.names$ -- 282
+pop$ -- 1029
+preamble$ -- 1
+purify$ -- 437
+quote$ -- 0
+skip$ -- 1479
+stack$ -- 0
+substring$ -- 1295
+swap$ -- 449
+text.length$ -- 32
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 655
+warning$ -- 1
+while$ -- 277
+width$ -- 0
+write$ -- 947
+(There were 5 warnings)

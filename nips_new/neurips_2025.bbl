@@ -1,0 +1,373 @@
+\begin{thebibliography}{60}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cai and Cui(2023)]{cai2023evadechatgpt}
+Shuyang Cai and Wanyun Cui.
+\newblock Evade chatgpt detectors via a single space, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.02599}.
+
+\bibitem[Cao et~al.(2024)Cao, Ruan, Dong, Shi, and Zheng]{Cao2024RRPU}
+Shuzhi Cao, Jianfei Ruan, Bo~Dong, Bin Shi, and Qinghua Zheng.
+\newblock Rr-pu: A synergistic two-stage positive and unlabeled learning framework for robust tax evasion detection.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, 38\penalty0 (8):\penalty0 8246--8254, Mar. 2024.
+\newblock \doi{10.1609/aaai.v38i8.28665}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/28665}.
+
+\bibitem[Chen et~al.(2022)Chen, Zhang, Mao, and Xu]{Chen2022contastive}
+Junfan Chen, Richong Zhang, Yongyi Mao, and Jie Xu.
+\newblock Contrastnet: A contrastive learning framework for few-shot text classification.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, 36\penalty0 (10):\penalty0 10492--10500, Jun. 2022.
+\newblock \doi{10.1609/aaai.v36i10.21292}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/21292}.
+
+\bibitem[Chen et~al.(2023)Chen, Kang, Zhai, Li, Singh, and Raj]{Chen_2023}
+Yutian Chen, Hao Kang, Vivian Zhai, Liangze Li, Rita Singh, and Bhiksha Raj.
+\newblock Token prediction as implicit classification to identify llm-generated text.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, page 13112–13120. Association for Computational Linguistics, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.810}.
+\newblock URL \url{http://dx.doi.org/10.18653/v1/2023.emnlp-main.810}.
+
+\bibitem[Cheng et~al.(2023)Cheng, Cao, Ye, Zhu, Li, and Zou]{cheng2023ml}
+Xuxin Cheng, Bowen Cao, Qichen Ye, Zhihong Zhu, Hongxiang Li, and Yuexian Zou.
+\newblock {ML}-{LMCL}: Mutual learning and large-margin contrastive learning for improving {ASR} robustness in spoken language understanding.
+\newblock In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, \emph{Findings of the Association for Computational Linguistics: ACL 2023}, pages 6492--6505, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.findings-acl.406}.
+\newblock URL \url{https://aclanthology.org/2023.findings-acl.406/}.
+
+\bibitem[{Claude AI}(2024)]{Claude2024}
+{Claude AI}, 2024.
+\newblock URL \url{https://www.ibm.com/think/topics/claude-ai}.
+
+\bibitem[Concone et~al.(2023)Concone, Re, Morana, and Das]{Concone2023SpADe}
+Federico Concone, Giuseppe~Lo Re, Marco Morana, and Sajal~K. Das.
+\newblock Spade: Multi-stage spam account detection for online social networks.
+\newblock \emph{IEEE Transactions on Dependable and Secure Computing}, 20\penalty0 (4):\penalty0 3128--3143, 2023.
+\newblock \doi{10.1109/TDSC.2022.3198830}.
+
+\bibitem[DeepSeek-AI(2025)]{deepseekai2025}
+DeepSeek-AI.
+\newblock Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.12948}.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language understanding.
+\newblock In Jill Burstein, Christy Doran, and Thamar Solorio, editors, \emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/N19-1423}.
+\newblock URL \url{https://aclanthology.org/N19-1423/}.
+
+\bibitem[Dickson et~al.(2022)Dickson, Bosman, and Malan]{Dickson2022crossentry}
+Matthew~C. Dickson, Anna~S. Bosman, and Katherine~M. Malan.
+\newblock \emph{Hybridised Loss Functions for Improved Neural Network Generalisation}, page 169–181.
+\newblock Springer International Publishing, 2022.
+\newblock ISBN 9783030933142.
+\newblock \doi{10.1007/978-3-030-93314-2_11}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-030-93314-2_11}.
+
+\bibitem[Duan et~al.(2020)Duan, Xie, Qi, Bai, Huang, and Tian]{duan2020corner}
+Kaiwen Duan, Lingxi Xie, Honggang Qi, Song Bai, Qingming Huang, and Qi~Tian.
+\newblock Corner proposal network for anchor-free, two-stage object detection, 2020.
+\newblock URL \url{https://arxiv.org/abs/2007.13816}.
+
+\bibitem[Dugan et~al.(2024)Dugan, Hwang, Trhl{\'i}k, Zhu, Ludan, Xu, Ippolito, and Callison-Burch]{dugan2024raid}
+Liam Dugan, Alyssa Hwang, Filip Trhl{\'i}k, Andrew Zhu, Josh~Magnus Ludan, Hainiu Xu, Daphne Ippolito, and Chris Callison-Burch.
+\newblock {RAID}: A shared benchmark for robust evaluation of machine-generated text detectors.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 12463--12492, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.674}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.674/}.
+
+\bibitem[Feng et~al.(2024)Feng, Wu, Xue, Pan, Zou, Liu, and Jin]{siyue2024fire}
+Siyue Feng, Yueming Wu, Wenjie Xue, Sikui Pan, Deqing Zou, Yang Liu, and Hai Jin.
+\newblock {FIRE}: Combining {Multi-Stage} filtering with taint analysis for scalable recurring vulnerability detection.
+\newblock In \emph{33rd USENIX Security Symposium (USENIX Security 24)}, pages 1867--1884, Philadelphia, PA, August 2024. USENIX Association.
+\newblock ISBN 978-1-939133-44-1.
+\newblock URL \url{https://www.usenix.org/conference/usenixsecurity24/presentation/feng-siyue}.
+
+\bibitem[Gao et~al.(2021)Gao, Yao, and Chen]{gao2021simcse}
+Tianyu Gao, Xingcheng Yao, and Danqi Chen.
+\newblock {S}im{CSE}: Simple contrastive learning of sentence embeddings.
+\newblock In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih, editors, \emph{Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing}, pages 6894--6910, Online and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.emnlp-main.552}.
+\newblock URL \url{https://aclanthology.org/2021.emnlp-main.552/}.
+
+\bibitem[Gehrmann et~al.(2019)Gehrmann, Strobelt, and Rush]{gehrmann2019gltrstatisticaldetectionvisualization}
+Sebastian Gehrmann, Hendrik Strobelt, and Alexander~M. Rush.
+\newblock Gltr: Statistical detection and visualization of generated text, 2019.
+\newblock URL \url{https://arxiv.org/abs/1906.04043}.
+
+\bibitem[Gemini(2024)]{geminiteam2024geminifamilyhighlycapable}
+Gemini.
+\newblock Gemini: A family of highly capable multimodal models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2312.11805}.
+
+\bibitem[Gu et~al.(2022)Gu, Huang, Zheng, Chang, and Hsieh]{gu2022watermarking}
+Chenxi Gu, Chengsong Huang, Xiaoqing Zheng, Kai-Wei Chang, and Cho-Jui Hsieh.
+\newblock Watermarking pre-trained language models with backdooring.
+\newblock \emph{arXiv preprint arXiv:2210.07543}, 2022.
+
+\bibitem[Guo et~al.(2023)Guo, Zhang, Wang, Jiang, Nie, Ding, Yue, and Wu]{guo2023simpleai}
+Biyang Guo, Xin Zhang, Ziyuan Wang, Minqi Jiang, Jinran Nie, Yuxuan Ding, Jianwei Yue, and Yupeng Wu.
+\newblock How close is chatgpt to human experts? comparison corpus, evaluation, and detection.
+\newblock \emph{arXiv preprint arxiv:2301.07597}, 2023.
+
+\bibitem[Guo et~al.(2024)Guo, Zhang, He, Zhang, Feng, Huang, and Ma]{guo2024detective}
+Xun Guo, Shan Zhang, Yongxin He, Ting Zhang, Wanquan Feng, Haibin Huang, and Chongyang Ma.
+\newblock Detective: Detecting ai-generated text via multi-level contrastive learning.
+\newblock In A.~Globerson, L.~Mackey, D.~Belgrave, A.~Fan, U.~Paquet, J.~Tomczak, and C.~Zhang, editors, \emph{Advances in Neural Information Processing Systems}, volume~37, pages 88320--88347. Curran Associates, Inc., 2024.
+
+\bibitem[Hazell(2023)]{hazell2023spear}
+Julian Hazell.
+\newblock Spear phishing with large language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.06972}.
+
+\bibitem[Hou et~al.(2024)Hou, Zhang, Wang, Khashabi, and He]{hou2024clusteringbasedsemanticwatermark}
+Abe Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi, and Tianxing He.
+\newblock k-{S}em{S}tamp: A clustering-based semantic watermark for detection of machine-generated text.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Findings of the Association for Computational Linguistics: ACL 2024}, pages 1706--1715, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.findings-acl.98}.
+\newblock URL \url{https://aclanthology.org/2024.findings-acl.98/}.
+
+\bibitem[Hu et~al.(2023)Hu, Chen, and Ho]{hu2023radarrobustaitextdetection}
+Xiaomeng Hu, Pin-Yu Chen, and Tsung-Yi Ho.
+\newblock Radar: Robust ai-text detection via adversarial learning, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.03838}.
+
+\bibitem[Huang et~al.(2024)Huang, Zhang, Li, You, Wang, and Yang]{huang2024ai}
+Guanhua Huang, Yuchen Zhang, Zhe Li, Yongjian You, Mingze Wang, and Zhouwang Yang.
+\newblock Are {AI}-generated text detectors robust to adversarial perturbations?
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 6005--6024, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.327}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.327/}.
+
+\bibitem[Jiang et~al.(2024)Jiang, Zhang, Su, Treude, and Wang]{jiang2024Staged}
+Yuan Jiang, Yujian Zhang, Xiaohong Su, Christoph Treude, and Tiantian Wang.
+\newblock Stagedvulbert: Multigranular vulnerability detection with a novel pretrained code model.
+\newblock \emph{IEEE Transactions on Software Engineering}, 50\penalty0 (12):\penalty0 3454--3471, 2024.
+\newblock \doi{10.1109/TSE.2024.3493245}.
+
+\bibitem[Kirchenbauer et~al.(2023)Kirchenbauer, Geiping, Wen, Katz, Miers, and Goldstein]{kirchenbauer2023watermark}
+John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein.
+\newblock A watermark for large language models.
+\newblock In Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett, editors, \emph{Proceedings of the 40th International Conference on Machine Learning}, volume 202 of \emph{Proceedings of Machine Learning Research}, pages 17061--17084. PMLR, 23--29 Jul 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/kirchenbauer23a.html}.
+
+\bibitem[Krishna et~al.(2024)Krishna, Song, Karpinska, Wieting, and Iyyer]{krishna2024paraphrasing}
+Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting, and Mohit Iyyer.
+\newblock Paraphrasing evades detectors of ai-generated text, but retrieval is an effective defense.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2024.
+
+\bibitem[Lewis et~al.(2020)Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer]{lewis2020bart}
+Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, and Luke Zettlemoyer.
+\newblock {BART}: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.
+\newblock In Dan Jurafsky, Joyce Chai, Natalie Schluter, and Joel Tetreault, editors, \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 7871--7880, Online, July 2020. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-main.703}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.703/}.
+
+\bibitem[Li et~al.(2021)Li, Dai, Shao, and Ding]{li2021cloud}
+Jiale Li, Hang Dai, Ling Shao, and Yong Ding.
+\newblock Anchor-free 3d single stage detector with mask-guided attention for point cloud.
+\newblock In \emph{Proceedings of the 29th ACM International Conference on Multimedia}, MM '21, page 553–562, New York, NY, USA, 2021. Association for Computing Machinery.
+\newblock ISBN 9781450386517.
+\newblock \doi{10.1145/3474085.3475208}.
+\newblock URL \url{https://doi.org/10.1145/3474085.3475208}.
+
+\bibitem[Li et~al.(2024)Li, Wang, Lv, and Zeng]{li2024emotion}
+Jiang Li, Xiaoping Wang, Guoqing Lv, and Zhigang Zeng.
+\newblock Ga2mif: Graph and attention based two-stage multi-source information fusion for conversational emotion detection.
+\newblock \emph{IEEE Transactions on Affective Computing}, 15\penalty0 (1):\penalty0 130--143, 2024.
+\newblock \doi{10.1109/TAFFC.2023.3261279}.
+
+\bibitem[Lin et~al.(2024)Lin, Yang, Sudyana, Yudha, Lai, and Hwang]{lin2024machine}
+Ying-Dar Lin, Shin-Yi Yang, Didik Sudyana, Fietyata Yudha, Yuan-Cheng Lai, and Ren-Hung Hwang.
+\newblock Two-stage multi-datasource machine learning for attack technique and lifecycle detection.
+\newblock \emph{Computers and Security}, 142:\penalty0 103859, 2024.
+\newblock ISSN 0167-4048.
+\newblock \doi{https://doi.org/10.1016/j.cose.2024.103859}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0167404824001603}.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Pan, Hu, Li, Wen, King, and Yu]{liu2024unforgeablepubliclyverifiablewatermark}
+Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King, and Philip~S. Yu.
+\newblock An unforgeable publicly verifiable watermark for large language models, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2307.16230}.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Liu, Wang, Cheng, Li, Zhang, Lan, and Shen]{liu2024pecola}
+Shengchao Liu, Xiaoming Liu, Yichen Wang, Zehua Cheng, Chengzhengxu Li, Zhaohan Zhang, Yu~Lan, and Chao Shen.
+\newblock Does {D}etect{GPT} fully utilize perturbation? bridging selective perturbation to fine-tuned contrastive learning detector would be better.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1874--1889, Bangkok, Thailand, August 2024{\natexlab{b}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.103}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.103/}.
+
+\bibitem[Liu et~al.(2016)Liu, Wen, Yu, and Yang]{liu2016largemarginsoftmax}
+Weiyang Liu, Yandong Wen, Zhiding Yu, and Meng Yang.
+\newblock Large-margin softmax loss for convolutional neural networks.
+\newblock In Maria~Florina Balcan and Kilian~Q. Weinberger, editors, \emph{Proceedings of The 33rd International Conference on Machine Learning}, volume~48 of \emph{Proceedings of Machine Learning Research}, pages 507--516, New York, New York, USA, 20--22 Jun 2016. PMLR.
+\newblock URL \url{https://proceedings.mlr.press/v48/liud16.html}.
+
+\bibitem[Liu et~al.(2023)Liu, Zhang, Wang, Pu, Lan, and Shen]{liu2023coco}
+Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Hang Pu, Yu~Lan, and Chao Shen.
+\newblock Coco: Coherence-enhanced machine-generated text detection under data limitation with contrastive learning, 2023.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2212.10341}.
+
+\bibitem[Liu et~al.(2019)Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov]{liu2019roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock Roberta: A robustly optimized bert pretraining approach, 2019.
+\newblock URL \url{https://arxiv.org/abs/1907.11692}.
+
+\bibitem[Liu et~al.(2024{\natexlab{c}})Liu, Yao, Li, and Luo]{liu2024checkgpt}
+Zeyan Liu, Zijun Yao, Fengjun Li, and Bo~Luo.
+\newblock On the detectability of chatgpt content: Benchmarking, methodology, and evaluation through the lens of academic writing, 2024{\natexlab{c}}.
+\newblock URL \url{https://arxiv.org/abs/2306.05524}.
+
+\bibitem[Lu et~al.(2024)Lu, Liu, Yu, Li, and King]{lu2024entropybasedwatermarking}
+Yijian Lu, Aiwei Liu, Dianzhi Yu, Jingjing Li, and Irwin King.
+\newblock An entropy-based text watermarking detection method.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 11724--11735, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.630}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.630/}.
+
+\bibitem[Ma et~al.(2022)Ma, Kunin, Wu, and Ying]{ma2022crossentry}
+Chao Ma, Daniel Kunin, Lei Wu, and Lexing Ying.
+\newblock Beyond the quadratic approximation: the multiscale structure of neural network loss landscapes, 2022.
+\newblock URL \url{https://arxiv.org/abs/2204.11326}.
+
+\bibitem[Miao et~al.(2024)Miao, Gao, Zhang, and Deng]{miao2024efficientdetection}
+Yibo Miao, Hongcheng Gao, Hao Zhang, and Zhijie Deng.
+\newblock Efficient detection of llm-generated texts with a bayesian surrogate model, 2024.
+\newblock URL \url{https://arxiv.org/abs/2305.16617}.
+
+\bibitem[Mireshghallah et~al.(2024)Mireshghallah, Mattern, Gao, Shokri, and Berg-Kirkpatrick]{mireshghallah2024smallerlanguagemodelsbetter}
+Niloofar Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri, and Taylor Berg-Kirkpatrick.
+\newblock Smaller language models are better black-box machine-generated text detectors, 2024.
+\newblock URL \url{https://arxiv.org/abs/2305.09859}.
+
+\bibitem[Mitchell et~al.(2023)Mitchell, Lee, Khazatsky, Manning, and Finn]{mitchell2023detectgpt}
+Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher~D Manning, and Chelsea Finn.
+\newblock {D}etect{GPT}: Zero-shot machine-generated text detection using probability curvature.
+\newblock In Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett, editors, \emph{Proceedings of the 40th International Conference on Machine Learning}, volume 202 of \emph{Proceedings of Machine Learning Research}, pages 24950--24962. PMLR, 23--29 Jul 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/mitchell23a.html}.
+
+\bibitem[Perkins(2023)]{Perkins2023}
+Roe Perkins, Mike.
+\newblock Detection of gpt-4 generated text in higher education: Combining academic judgement and software to identify generative ai tool misuse.
+\newblock \emph{Journal of Academic Ethics}, 22\penalty0 (1), October 2023.
+\newblock ISSN 1572-8544.
+\newblock \doi{10.1007/s10805-023-09492-6}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10805-023-09492-6}.
+
+\bibitem[Sohn(2016)]{sohn2016contrasive}
+Kihyuk Sohn.
+\newblock Improved deep metric learning with multi-class n-pair loss objective.
+\newblock In D.~Lee, M.~Sugiyama, U.~Luxburg, I.~Guyon, and R.~Garnett, editors, \emph{Advances in Neural Information Processing Systems}, volume~29. Curran Associates, Inc., 2016.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2016/file/6b180037abbebea991d8b1232f8a8ca9-Paper.pdf}.
+
+\bibitem[Solaiman et~al.(2019)Solaiman, Brundage, Clark, Askell, Herbert-Voss, Wu, Radford, Krueger, Kim, Kreps, McCain, Newhouse, Blazakis, McGuffie, and Wang]{solaiman2019releasestrategiessocialimpacts}
+Irene Solaiman, Miles Brundage, Jack Clark, Amanda Askell, Ariel Herbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger, Jong~Wook Kim, Sarah Kreps, Miles McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, and Jasmine Wang.
+\newblock Release strategies and the social impacts of language models, 2019.
+\newblock URL \url{https://arxiv.org/abs/1908.09203}.
+
+\bibitem[Soto et~al.(2024{\natexlab{a}})Soto, Koch, Khan, Chen, Bishop, and Andrews]{soto2024fewshot}
+Rafael Alberto~Rivera Soto, Kailin Koch, Aleem Khan, Barry~Y. Chen, Marcus Bishop, and Nicholas Andrews.
+\newblock Few-shot detection of machine-generated text using style representations.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=cWiEN1plhJ}.
+
+\bibitem[Soto et~al.(2024{\natexlab{b}})Soto, Koch, Khan, Chen, Bishop, and Andrews]{soto2024fewshotdetectionmachinegeneratedtext}
+Rafael~Rivera Soto, Kailin Koch, Aleem Khan, Barry Chen, Marcus Bishop, and Nicholas Andrews.
+\newblock Few-shot detection of machine-generated text using style representations, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2401.06712}.
+
+\bibitem[Su et~al.(2023)Su, Zhuo, Wang, and Nakov]{su2023detectllm}
+Jinyan Su, Terry~Yue Zhuo, Di~Wang, and Preslav Nakov.
+\newblock Detectllm: Leveraging log rank information for zero-shot detection of machine-generated text.
+\newblock \emph{arXiv preprint arXiv:2306.05540}, 2023.
+
+\bibitem[Sun et~al.(2020)Sun, Cheng, Zhang, Zhang, Zheng, Wang, and Wei]{Sun2020circleloss}
+Yifan Sun, Changmao Cheng, Yuhan Zhang, Chi Zhang, Liang Zheng, Zhongdao Wang, and Yichen Wei.
+\newblock Circle loss: A unified perspective of pair similarity optimization.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, June 2020.
+
+\bibitem[Tian and Cui(2023)]{tian2023gptzero}
+Edward Tian and Alexander Cui.
+\newblock Gptzero: Towards detection of ai-generated text using zero-shot and supervised methods, 2023.
+\newblock URL \url{https://example.com}.
+
+\bibitem[Tiedemann and Thottingal(2020)]{tiedemann2020opus}
+J{\"o}rg Tiedemann and Santhosh Thottingal.
+\newblock {OPUS}-{MT} {--} building open translation services for the world.
+\newblock In Andr{\'e} Martins, Helena Moniz, Sara Fumega, Bruno Martins, Fernando Batista, Luisa Coheur, Carla Parra, Isabel Trancoso, Marco Turchi, Arianna Bisazza, Joss Moorkens, Ana Guerberof, Mary Nurminen, Lena Marg, and Mikel~L. Forcada, editors, \emph{Proceedings of the 22nd Annual Conference of the European Association for Machine Translation}, pages 479--480, Lisboa, Portugal, November 2020. European Association for Machine Translation.
+\newblock URL \url{https://aclanthology.org/2020.eamt-1.61/}.
+
+\bibitem[Wang et~al.(2023)Wang, Li, Ren, Jiang, Zhang, and Qiu]{wang2023seqxgpt}
+Pengyu Wang, Linyang Li, Ke~Ren, Botian Jiang, Dong Zhang, and Xipeng Qiu.
+\newblock {S}eq{XGPT}: Sentence-level {AI}-generated text detection.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali, editors, \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pages 1144--1156, Singapore, December 2023. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.73/}.
+
+\bibitem[Wang et~al.(2025)Wang, Wang, Wang, Ren, and Zhang]{wang2025network}
+Qian Wang, Weilong Wang, Yan Wang, Jiadong Ren, and Bing Zhang.
+\newblock Multi-stage network attack detection algorithm based on gaussian mixture hidden markov model and transfer learning.
+\newblock \emph{IEEE Transactions on Automation Science and Engineering}, 22:\penalty0 3470--3484, 2025.
+\newblock \doi{10.1109/TASE.2024.3395355}.
+
+\bibitem[Wang et~al.(2018)Wang, Zeng, Liu, Zhu, Zhu, and Yin]{wang2018videoabnormal}
+Siqi Wang, Yijie Zeng, Qiang Liu, Chengzhang Zhu, En~Zhu, and Jianping Yin.
+\newblock Detecting abnormality without knowing normality: A two-stage approach for unsupervised video abnormal event detection.
+\newblock In \emph{Proceedings of the 26th ACM International Conference on Multimedia}, MM '18, page 636–644, New York, NY, USA, 2018. Association for Computing Machinery.
+\newblock ISBN 9781450356657.
+\newblock \doi{10.1145/3240508.3240615}.
+\newblock URL \url{https://doi.org/10.1145/3240508.3240615}.
+
+\bibitem[Wang et~al.(2024)Wang, Feng, Hou, Pu, Shen, Liu, Tsvetkov, and He]{wang2024stumblingblocks}
+Yichen Wang, Shangbin Feng, Abe Hou, Xiao Pu, Chao Shen, Xiaoming Liu, Yulia Tsvetkov, and Tianxing He.
+\newblock Stumbling blocks: Stress testing the robustness of machine-generated text detectors under attacks.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 2894--2925, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.160}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.160/}.
+
+\bibitem[Weidinger et~al.(2022)Weidinger, Uesato, Rauh, Griffin, Huang, Mellor, Glaese, Cheng, Balle, Kasirzadeh, Biles, Brown, Kenton, Hawkins, Stepleton, Birhane, Hendricks, Rimell, Isaac, Haas, Legassick, Irving, and Gabriel]{Weidinger2022taxonomy}
+Laura Weidinger, Jonathan Uesato, Maribeth Rauh, Conor Griffin, Po-Sen Huang, John Mellor, Amelia Glaese, Myra Cheng, Borja Balle, Atoosa Kasirzadeh, Courtney Biles, Sasha Brown, Zac Kenton, Will Hawkins, Tom Stepleton, Abeba Birhane, Lisa~Anne Hendricks, Laura Rimell, William Isaac, Julia Haas, Sean Legassick, Geoffrey Irving, and Iason Gabriel.
+\newblock Taxonomy of risks posed by language models.
+\newblock FAccT '22, page 214–229, New York, NY, USA, 2022. Association for Computing Machinery.
+\newblock ISBN 9781450393522.
+\newblock \doi{10.1145/3531146.3533088}.
+\newblock URL \url{https://doi.org/10.1145/3531146.3533088}.
+
+\bibitem[Wood et~al.(2022)Wood, Mu, and Brown]{wood2022biasvariance}
+Danny Wood, Tingting Mu, and Gavin Brown.
+\newblock Bias-variance decompositions for margin losses.
+\newblock In Gustau Camps-Valls, Francisco J.~R. Ruiz, and Isabel Valera, editors, \emph{Proceedings of The 25th International Conference on Artificial Intelligence and Statistics}, volume 151 of \emph{Proceedings of Machine Learning Research}, pages 1975--2001. PMLR, 28--30 Mar 2022.
+\newblock URL \url{https://proceedings.mlr.press/v151/wood22a.html}.
+
+\bibitem[Zhang et~al.(2022{\natexlab{a}})Zhang, Xiao, Zhu, Ma, and Arnold]{zhang2022vascl}
+Dejiao Zhang, Wei Xiao, Henghui Zhu, Xiaofei Ma, and Andrew Arnold.
+\newblock Virtual augmentation supported contrastive learning of sentence representations.
+\newblock In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio, editors, \emph{Findings of the Association for Computational Linguistics: ACL 2022}, pages 864--876, Dublin, Ireland, May 2022{\natexlab{a}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.findings-acl.70}.
+\newblock URL \url{https://aclanthology.org/2022.findings-acl.70/}.
+
+\bibitem[Zhang et~al.(2022{\natexlab{b}})Zhang, Zhang, Mensah, Liu, and Mao]{Zhang2022mixcse}
+Yanzhao Zhang, Richong Zhang, Samuel Mensah, Xudong Liu, and Yongyi Mao.
+\newblock Unsupervised sentence representation via contrastive learning with mixing negatives.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, 36\penalty0 (10):\penalty0 11730--11738, Jun. 2022{\natexlab{b}}.
+\newblock \doi{10.1609/aaai.v36i10.21428}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/21428}.
+
+\bibitem[Zhou et~al.(2024)Zhou, He, and Sun]{zhou2024navigatingshadows}
+Ying Zhou, Ben He, and Le~Sun.
+\newblock Navigating the shadows: Unveiling effective disturbances for {M}odern {AI} content detectors.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 10847--10861, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.acl-long.584}.
+\newblock URL \url{https://aclanthology.org/2024.acl-long.584/}.
+
+\bibitem[Zhu et~al.(2023)Zhu, Yuan, Cui, Chen, Fu, He, Deng, Liu, Sun, and Gu]{zhu2023beatllm}
+Biru Zhu, Lifan Yuan, Ganqu Cui, Yangyi Chen, Chong Fu, Bingxiang He, Yangdong Deng, Zhiyuan Liu, Maosong Sun, and Ming Gu.
+\newblock Beat {LLM}s at their own game: Zero-shot {LLM}-generated text detection via querying {C}hat{GPT}.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali, editors, \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pages 7470--7483, Singapore, December 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.463}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.463/}.
+
+\end{thebibliography}

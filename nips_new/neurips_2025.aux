@@ -1,0 +1,210 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{Claude2024,deepseekai2025,geminiteam2024geminifamilyhighlycapable}
+\citation{Perkins2023}
+\citation{hazell2023spear,Weidinger2022taxonomy}
+\citation{mitchell2023detectgpt,tian2023gptzero}
+\citation{gu2022watermarking,kirchenbauer2023watermark}
+\citation{guo2023simpleai,wang2023seqxgpt}
+\citation{zhou2024navigatingshadows,huang2024ai}
+\citation{zhou2024navigatingshadows}
+\citation{dugan2024raid,krishna2024paraphrasing}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces HiGraDe's framework overview under two scenarios. (a) Task 1: detecting human texts and machine texts. (b) Task 2: detecting human texts and humanized machine texts, original machine texts are also included. Task 1 is simple and traditional while Task 2 is more complex and realistic.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:method}{{1}{2}{HiGraDe's framework overview under two scenarios. (a) Task 1: detecting human texts and machine texts. (b) Task 2: detecting human texts and humanized machine texts, original machine texts are also included. Task 1 is simple and traditional while Task 2 is more complex and realistic}{figure.1}{}}
+\citation{jiang2024Staged}
+\citation{siyue2024fire}
+\citation{Cao2024RRPU}
+\citation{Concone2023SpADe}
+\citation{duan2020corner}
+\citation{wang2018videoabnormal,wang2025network,li2024emotion,lin2024machine,li2021cloud}
+\citation{zhou2024navigatingshadows,dugan2024raid,krishna2024paraphrasing,liu2024pecola,huang2024ai,wang2024stumblingblocks}
+\citation{liu2024pecola}
+\citation{dugan2024raid}
+\citation{zhou2024navigatingshadows}
+\citation{zhou2024navigatingshadows,huang2024ai}
+\citation{zhou2024navigatingshadows}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Works}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Multi-stage detection.}{3}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Humanizing methods of machine texts.}{3}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Model and Methodology}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Workflow Under two Scenarios}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{subsec:framework}{{3.1}{3}{Workflow Under two Scenarios}{subsection.3.1}{}}
+\newlabel{eq:tasks_define}{{3.1}{3}{Workflow Under two Scenarios}{subsection.3.1}{}}
+\citation{Concone2023SpADe}
+\citation{duan2020corner}
+\citation{Dickson2022crossentry,ma2022crossentry,wood2022biasvariance}
+\citation{liu2016largemarginsoftmax,Sun2020circleloss}
+\citation{liu2016largemarginsoftmax,sohn2016contrasive}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Contrastive loss VS cross-entropy loss. Model loss based on cross entropy converges faster and more stably, and its training accuracy is higher than that of the model based on contrastive learning for Task 1 and 2.}}{4}{figure.2}\protected@file@percent }
+\newlabel{fig:loss_compare}{{2}{4}{Contrastive loss VS cross-entropy loss. Model loss based on cross entropy converges faster and more stably, and its training accuracy is higher than that of the model based on contrastive learning for Task 1 and 2}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Two-layer Combined Training Paradigm}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Coarse Screen Layer}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:first_stage}{{3.3}{4}{Coarse Screen Layer}{subsection.3.3}{}}
+\newlabel{eq:loss_ce}{{1}{4}{Coarse Screen Layer}{equation.3.1}{}}
+\citation{guo2024detective}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the subdivision layer. After the filtered texts are encoded by the encoder, their deeper features are learned through multi-granularity contrastive learning, which pulls in the same positive samples and pushes away the negative samples to distinguish human texts and machine texts.}}{5}{figure.3}\protected@file@percent }
+\newlabel{fig:second-detector}{{3}{5}{Overview of the subdivision layer. After the filtered texts are encoded by the encoder, their deeper features are learned through multi-granularity contrastive learning, which pulls in the same positive samples and pushes away the negative samples to distinguish human texts and machine texts}{figure.3}{}}
+\newlabel{ineq:seq_equal}{{2}{5}{Coarse Screen Layer}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Subdivision Layer}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:second_stage}{{3.4}{5}{Subdivision Layer}{subsection.3.4}{}}
+\newlabel{ineq:sim_equal}{{3}{5}{Subdivision Layer}{equation.3.3}{}}
+\newlabel{eq:loss_function}{{4}{5}{Subdivision Layer}{equation.3.4}{}}
+\newlabel{eq:final_contrastive_loss}{{5}{5}{Subdivision Layer}{equation.3.5}{}}
+\citation{guo2023simpleai}
+\citation{wang2023seqxgpt}
+\citation{liu2024checkgpt}
+\citation{guo2023simpleai}
+\citation{kirchenbauer2023watermark}
+\citation{liu2023coco}
+\citation{hu2023radarrobustaitextdetection}
+\citation{liu2024pecola}
+\newlabel{eq:loss_overall}{{6}{6}{Subdivision Layer}{equation.3.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{6}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:experimental_setup}{{4.1}{6}{Experimental Setup}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Datasets.}{6}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Evaluating Metrics.}{6}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Baseline Detectors.}{6}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Results and Analysis}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Illustration of contrastive learning and cross entropy on final texts' embeddings. Para-mac reffers to text using humanizing method of paragraph level, rest are the same.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:classify_compare}{{4}{7}{Illustration of contrastive learning and cross entropy on final texts' embeddings. Para-mac reffers to text using humanizing method of paragraph level, rest are the same}{figure.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Combined performance results across original and humanized datasets. The best number is highlighted in \textbf  {bold}, while the second best one is \underline  {underlined}.}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:combined_results}{{1}{7}{Combined performance results across original and humanized datasets. The best number is highlighted in \textbf {bold}, while the second best one is \underline {underlined}}{table.1}{}}
+\citation{wang2024stumblingblocks}
+\citation{Chen2022contastive}
+\citation{guo2023simpleai}
+\citation{hu2023radarrobustaitextdetection}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Illustration of "patch" result for baseline detectors SimpleAI and RADAR on CheckGPT dataset, original (humanized) represents the original (humanized) dataset, single represents the original detector, joint represents detecor using our patch. Results prove that our patch can effectively improve the performance of the current baseline detectors. Detailed results are shown in Appendix \ref {sec:detailed_patch_results}.}}{8}{figure.5}\protected@file@percent }
+\newlabel{pic:patch_result}{{5}{8}{Illustration of "patch" result for baseline detectors SimpleAI and RADAR on CheckGPT dataset, original (humanized) represents the original (humanized) dataset, single represents the original detector, joint represents detecor using our patch. Results prove that our patch can effectively improve the performance of the current baseline detectors. Detailed results are shown in Appendix \ref {sec:detailed_patch_results}}{figure.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance results of "patching" results for contrastive learning and fine-tuned DeBERTa.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:combined_patch_results}{{2}{8}{Performance results of "patching" results for contrastive learning and fine-tuned DeBERTa}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Ablation Studies}{9}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Merged results of ablation study. Direct Apply represents results from direct application, Direct Train represents results from direct training.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:combined_ablation_results}{{3}{9}{Merged results of ablation study. Direct Apply represents results from direct application, Direct Train represents results from direct training}{table.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{9}{section.5}\protected@file@percent }
+\bibdata{custom}
+\bibcite{cai2023evadechatgpt}{{1}{2023}{{Cai and Cui}}{{}}}
+\bibcite{Cao2024RRPU}{{2}{2024}{{Cao et~al.}}{{Cao, Ruan, Dong, Shi, and Zheng}}}
+\bibcite{Chen2022contastive}{{3}{2022}{{Chen et~al.}}{{Chen, Zhang, Mao, and Xu}}}
+\bibcite{Chen_2023}{{4}{2023}{{Chen et~al.}}{{Chen, Kang, Zhai, Li, Singh, and Raj}}}
+\bibcite{cheng2023ml}{{5}{2023}{{Cheng et~al.}}{{Cheng, Cao, Ye, Zhu, Li, and Zou}}}
+\bibcite{Claude2024}{{6}{2024}{{Claude AI}}{{}}}
+\bibcite{Concone2023SpADe}{{7}{2023}{{Concone et~al.}}{{Concone, Re, Morana, and Das}}}
+\bibcite{deepseekai2025}{{8}{2025}{{DeepSeek-AI}}{{}}}
+\bibcite{devlin2019bert}{{9}{2019}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
+\bibcite{Dickson2022crossentry}{{10}{2022}{{Dickson et~al.}}{{Dickson, Bosman, and Malan}}}
+\bibcite{duan2020corner}{{11}{2020}{{Duan et~al.}}{{Duan, Xie, Qi, Bai, Huang, and Tian}}}
+\bibcite{dugan2024raid}{{12}{2024}{{Dugan et~al.}}{{Dugan, Hwang, Trhl{\'i}k, Zhu, Ludan, Xu, Ippolito, and Callison-Burch}}}
+\bibcite{siyue2024fire}{{13}{2024}{{Feng et~al.}}{{Feng, Wu, Xue, Pan, Zou, Liu, and Jin}}}
+\bibcite{gao2021simcse}{{14}{2021}{{Gao et~al.}}{{Gao, Yao, and Chen}}}
+\bibcite{gehrmann2019gltrstatisticaldetectionvisualization}{{15}{2019}{{Gehrmann et~al.}}{{Gehrmann, Strobelt, and Rush}}}
+\bibcite{geminiteam2024geminifamilyhighlycapable}{{16}{2024}{{Gemini}}{{}}}
+\bibcite{gu2022watermarking}{{17}{2022}{{Gu et~al.}}{{Gu, Huang, Zheng, Chang, and Hsieh}}}
+\bibcite{guo2023simpleai}{{18}{2023}{{Guo et~al.}}{{Guo, Zhang, Wang, Jiang, Nie, Ding, Yue, and Wu}}}
+\bibcite{guo2024detective}{{19}{2024}{{Guo et~al.}}{{Guo, Zhang, He, Zhang, Feng, Huang, and Ma}}}
+\bibcite{hazell2023spear}{{20}{2023}{{Hazell}}{{}}}
+\bibcite{hou2024clusteringbasedsemanticwatermark}{{21}{2024}{{Hou et~al.}}{{Hou, Zhang, Wang, Khashabi, and He}}}
+\bibcite{hu2023radarrobustaitextdetection}{{22}{2023}{{Hu et~al.}}{{Hu, Chen, and Ho}}}
+\bibcite{huang2024ai}{{23}{2024}{{Huang et~al.}}{{Huang, Zhang, Li, You, Wang, and Yang}}}
+\bibcite{jiang2024Staged}{{24}{2024}{{Jiang et~al.}}{{Jiang, Zhang, Su, Treude, and Wang}}}
+\bibcite{kirchenbauer2023watermark}{{25}{2023}{{Kirchenbauer et~al.}}{{Kirchenbauer, Geiping, Wen, Katz, Miers, and Goldstein}}}
+\bibcite{krishna2024paraphrasing}{{26}{2024}{{Krishna et~al.}}{{Krishna, Song, Karpinska, Wieting, and Iyyer}}}
+\bibcite{lewis2020bart}{{27}{2020}{{Lewis et~al.}}{{Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer}}}
+\bibcite{li2021cloud}{{28}{2021}{{Li et~al.}}{{Li, Dai, Shao, and Ding}}}
+\bibcite{li2024emotion}{{29}{2024}{{Li et~al.}}{{Li, Wang, Lv, and Zeng}}}
+\bibcite{lin2024machine}{{30}{2024}{{Lin et~al.}}{{Lin, Yang, Sudyana, Yudha, Lai, and Hwang}}}
+\bibcite{liu2024unforgeablepubliclyverifiablewatermark}{{31}{2024{}}{{Liu et~al.}}{{Liu, Pan, Hu, Li, Wen, King, and Yu}}}
+\bibcite{liu2024pecola}{{32}{2024{}}{{Liu et~al.}}{{Liu, Liu, Wang, Cheng, Li, Zhang, Lan, and Shen}}}
+\bibcite{liu2016largemarginsoftmax}{{33}{2016}{{Liu et~al.}}{{Liu, Wen, Yu, and Yang}}}
+\bibcite{liu2023coco}{{34}{2023}{{Liu et~al.}}{{Liu, Zhang, Wang, Pu, Lan, and Shen}}}
+\bibcite{liu2019roberta}{{35}{2019}{{Liu et~al.}}{{Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov}}}
+\bibcite{liu2024checkgpt}{{36}{2024{}}{{Liu et~al.}}{{Liu, Yao, Li, and Luo}}}
+\bibcite{lu2024entropybasedwatermarking}{{37}{2024}{{Lu et~al.}}{{Lu, Liu, Yu, Li, and King}}}
+\bibcite{ma2022crossentry}{{38}{2022}{{Ma et~al.}}{{Ma, Kunin, Wu, and Ying}}}
+\bibcite{miao2024efficientdetection}{{39}{2024}{{Miao et~al.}}{{Miao, Gao, Zhang, and Deng}}}
+\bibcite{mireshghallah2024smallerlanguagemodelsbetter}{{40}{2024}{{Mireshghallah et~al.}}{{Mireshghallah, Mattern, Gao, Shokri, and Berg-Kirkpatrick}}}
+\bibcite{mitchell2023detectgpt}{{41}{2023}{{Mitchell et~al.}}{{Mitchell, Lee, Khazatsky, Manning, and Finn}}}
+\bibcite{Perkins2023}{{42}{2023}{{Perkins}}{{}}}
+\bibcite{sohn2016contrasive}{{43}{2016}{{Sohn}}{{}}}
+\bibcite{solaiman2019releasestrategiessocialimpacts}{{44}{2019}{{Solaiman et~al.}}{{Solaiman, Brundage, Clark, Askell, Herbert-Voss, Wu, Radford, Krueger, Kim, Kreps, McCain, Newhouse, Blazakis, McGuffie, and Wang}}}
+\bibcite{soto2024fewshot}{{45}{2024{}}{{Soto et~al.}}{{Soto, Koch, Khan, Chen, Bishop, and Andrews}}}
+\bibcite{soto2024fewshotdetectionmachinegeneratedtext}{{46}{2024{}}{{Soto et~al.}}{{Soto, Koch, Khan, Chen, Bishop, and Andrews}}}
+\bibcite{su2023detectllm}{{47}{2023}{{Su et~al.}}{{Su, Zhuo, Wang, and Nakov}}}
+\bibcite{Sun2020circleloss}{{48}{2020}{{Sun et~al.}}{{Sun, Cheng, Zhang, Zhang, Zheng, Wang, and Wei}}}
+\bibcite{tian2023gptzero}{{49}{2023}{{Tian and Cui}}{{}}}
+\bibcite{tiedemann2020opus}{{50}{2020}{{Tiedemann and Thottingal}}{{}}}
+\bibcite{wang2023seqxgpt}{{51}{2023}{{Wang et~al.}}{{Wang, Li, Ren, Jiang, Zhang, and Qiu}}}
+\bibcite{wang2025network}{{52}{2025}{{Wang et~al.}}{{Wang, Wang, Wang, Ren, and Zhang}}}
+\bibcite{wang2018videoabnormal}{{53}{2018}{{Wang et~al.}}{{Wang, Zeng, Liu, Zhu, Zhu, and Yin}}}
+\bibcite{wang2024stumblingblocks}{{54}{2024}{{Wang et~al.}}{{Wang, Feng, Hou, Pu, Shen, Liu, Tsvetkov, and He}}}
+\bibcite{Weidinger2022taxonomy}{{55}{2022}{{Weidinger et~al.}}{{Weidinger, Uesato, Rauh, Griffin, Huang, Mellor, Glaese, Cheng, Balle, Kasirzadeh, Biles, Brown, Kenton, Hawkins, Stepleton, Birhane, Hendricks, Rimell, Isaac, Haas, Legassick, Irving, and Gabriel}}}
+\bibcite{wood2022biasvariance}{{56}{2022}{{Wood et~al.}}{{Wood, Mu, and Brown}}}
+\bibcite{zhang2022vascl}{{57}{2022{}}{{Zhang et~al.}}{{Zhang, Xiao, Zhu, Ma, and Arnold}}}
+\bibcite{Zhang2022mixcse}{{58}{2022{}}{{Zhang et~al.}}{{Zhang, Zhang, Mensah, Liu, and Mao}}}
+\bibcite{zhou2024navigatingshadows}{{59}{2024}{{Zhou et~al.}}{{Zhou, He, and Sun}}}
+\bibcite{zhu2023beatllm}{{60}{2023}{{Zhu et~al.}}{{Zhu, Yuan, Cui, Chen, Fu, He, Deng, Liu, Sun, and Gu}}}
+\citation{zhou2024navigatingshadows}
+\citation{cai2023evadechatgpt}
+\citation{devlin2019bert}
+\citation{lewis2020bart}
+\citation{krishna2024paraphrasing}
+\citation{tiedemann2020opus}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Broader Impacts}{16}{appendix.A}\protected@file@percent }
+\newlabel{sec:Impacts}{{A}{16}{Broader Impacts}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Limitations and Future Work}{16}{appendix.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Detailed Humanizing Methods and Its Levels}{16}{appendix.C}\protected@file@percent }
+\newlabel{appendix:humanizing methods}{{C}{16}{Detailed Humanizing Methods and Its Levels}{appendix.C}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Detailed Construction of Dataset}{16}{appendix.D}\protected@file@percent }
+\newlabel{subsec:dataset_appendix}{{D}{16}{Detailed Construction of Dataset}{appendix.D}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Detailed composition of the dataset for detecting human texts and original machine texts.}}{17}{table.4}\protected@file@percent }
+\newlabel{tab:detailed_original_datasets}{{4}{17}{Detailed composition of the dataset for detecting human texts and original machine texts}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Detailed composition of the dataset for watermarks.}}{17}{table.5}\protected@file@percent }
+\newlabel{tab:watermark_original_datasets}{{5}{17}{Detailed composition of the dataset for watermarks}{table.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Detailed composition of the dataset for detecting human texts and humanized machine texts.}}{17}{table.6}\protected@file@percent }
+\newlabel{tab:detailed_attack_datasets}{{6}{17}{Detailed composition of the dataset for detecting human texts and humanized machine texts}{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Detailed composition of the humanized dataset for watermarks.}}{17}{table.7}\protected@file@percent }
+\newlabel{tab:watermark_attack_datasets}{{7}{17}{Detailed composition of the humanized dataset for watermarks}{table.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Comparison of Detectors in Costs}{17}{appendix.E}\protected@file@percent }
+\newlabel{sec:cost_comparison}{{E}{17}{Comparison of Detectors in Costs}{appendix.E}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Detailed comparison of the detectors in terms of costs. Preprocess time means data should be preprocessed before training.}}{17}{table.8}\protected@file@percent }
+\newlabel{tab:detailed_compare_cost}{{8}{17}{Detailed comparison of the detectors in terms of costs. Preprocess time means data should be preprocessed before training}{table.8}{}}
+\citation{mitchell2023detectgpt}
+\citation{su2023detectllm}
+\citation{tian2023gptzero,gehrmann2019gltrstatisticaldetectionvisualization}
+\citation{gu2022watermarking,liu2024unforgeablepubliclyverifiablewatermark,hou2024clusteringbasedsemanticwatermark,lu2024entropybasedwatermarking}
+\citation{kirchenbauer2023watermark}
+\citation{Chen_2023,miao2024efficientdetection,mireshghallah2024smallerlanguagemodelsbetter,wang2023seqxgpt,liu2024checkgpt}
+\citation{liu2019roberta}
+\citation{solaiman2019releasestrategiessocialimpacts}
+\citation{hu2023radarrobustaitextdetection}
+\citation{soto2024fewshotdetectionmachinegeneratedtext}
+\citation{huang2024ai}
+\citation{krishna2024paraphrasing}
+\citation{zhu2023beatllm}
+\citation{cheng2023ml}
+\citation{Zhang2022mixcse}
+\citation{gao2021simcse}
+\citation{zhang2022vascl}
+\citation{liu2023coco}
+\citation{soto2024fewshot,guo2024detective}
+\citation{liu2024pecola}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Detailed time cost for PECOLA in building train, eval and test sets. Augment means data augmentation, Select means its selecting strategy.}}{18}{table.9}\protected@file@percent }
+\newlabel{tab:detailed_PECOLA_cost}{{9}{18}{Detailed time cost for PECOLA in building train, eval and test sets. Augment means data augmentation, Select means its selecting strategy}{table.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Detailed time cost for CoCo in building train, eval and test sets. Extract means extracting entity, Build means building graphs according to the extracted entities.}}{18}{table.10}\protected@file@percent }
+\newlabel{tab:detailed_COCO_cost}{{10}{18}{Detailed time cost for CoCo in building train, eval and test sets. Extract means extracting entity, Build means building graphs according to the extracted entities}{table.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {F}Machine-Generated Text Detectors}{18}{appendix.F}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {G}Contrastive Learing in Detectors}{18}{appendix.G}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Illustration of "patch" result on supervised contrastive learning.}}{19}{figure.6}\protected@file@percent }
+\newlabel{fig:patch_result}{{6}{19}{Illustration of "patch" result on supervised contrastive learning}{figure.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {H}Detailed Patching Results}{19}{appendix.H}\protected@file@percent }
+\newlabel{sec:detailed_patch_results}{{H}{19}{Detailed Patching Results}{appendix.H}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Performance results of "patching" results of SimpleAI.}}{19}{table.11}\protected@file@percent }
+\newlabel{tab:patch_results_SimpleAI}{{11}{19}{Performance results of "patching" results of SimpleAI}{table.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Performance results of "patching" results of RADAR.}}{19}{table.12}\protected@file@percent }
+\newlabel{tab:patch_results_RADAR}{{12}{19}{Performance results of "patching" results of RADAR}{table.12}{}}
+\gdef \@abspage@last{20}
